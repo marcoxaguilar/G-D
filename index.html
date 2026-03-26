@@ -1280,6 +1280,7 @@
             .form-row { grid-template-columns: 1fr; }
             .calc-row { grid-template-columns: 1fr; }
             .footer-grid { grid-template-columns: 1fr; }
+            .blog-grid { grid-template-columns: 1fr !important; }
             .hero-stats { flex-direction: column; gap: 20px; align-items: center; }
         }
 
@@ -1349,6 +1350,7 @@
             <li><a href="#landscape-services">Landscape</a></li>
             <li><a href="#delivery-info">Delivery Info</a></li>
             <li><a href="#calculator">Calculator</a></li>
+            <li><a href="#blog">Blog</a></li>
             <li><a href="#faq">FAQ</a></li>
             <li><a href="#order" class="nav-cta">Order Now</a></li>
         </ul>
@@ -1677,7 +1679,7 @@
         <h2 class="section-title">From Our Blog</h2>
         <p class="section-subtitle">Expert advice on mulching, landscaping, and maintaining your Chicago-area property.</p>
 
-        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 28px; margin-top: 48px;">
+        <div class="blog-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 28px; margin-top: 48px;">
             <a href="blog/best-time-to-mulch-chicago.html" style="text-decoration: none; background: var(--gray-100); border: 1px solid var(--gray-200); border-radius: 16px; overflow: hidden; transition: all 0.3s;" onmouseover="this.style.boxShadow='0 12px 48px rgba(26,18,8,0.12)'; this.style.transform='translateY(-4px)'" onmouseout="this.style.boxShadow='none'; this.style.transform='none'">
                 <div style="background: linear-gradient(135deg, var(--green-700), var(--green-900)); padding: 32px; color: white;">
                     <span style="font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; opacity: 0.7;">Seasonal Guide</span>
@@ -1698,34 +1700,6 @@
                     <p style="color: var(--gray-600); font-size: 0.92rem; line-height: 1.65; margin-bottom: 16px;">Calculate exactly how many cubic yards of mulch your project needs. Includes coverage charts, real-world examples, and tips on ordering by the yard, ton, or load.</p>
                     <span style="color: var(--green-700); font-weight: 600; font-size: 0.88rem;">Read the Full Guide →</span>
                 </div>
-            </a>
-        </div>
-    </div>
-</section>
-
-<!-- ===== BLOG / GUIDES ===== -->
-<section id="guides" style="background: var(--earth-50);" aria-labelledby="guides-heading">
-    <div class="section-inner">
-        <span class="section-label">Mulch Guides &amp; Tips</span>
-        <h2 class="section-title" id="guides-heading">Helpful Resources for Chicago Homeowners</h2>
-        <p class="section-subtitle">Expert advice to help you choose, calculate, and get the most from your mulch investment.</p>
-
-        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 28px; margin-top: 48px;">
-            <a href="blog-how-much-mulch-do-i-need.html" style="text-decoration: none; color: inherit;">
-                <article class="service-card fade-up" style="cursor: pointer; height: 100%;">
-                    <div class="service-icon" style="background: var(--green-100); color: var(--green-700);">📐</div>
-                    <h3>How Much Mulch Do I Need?</h3>
-                    <p>Free mulch calculator, coverage charts, and step-by-step measuring guide. Know exactly how many cubic yards to order before scheduling your Chicago delivery.</p>
-                    <span style="color: var(--green-700); font-weight: 600; font-size: 0.9rem;">Read Guide →</span>
-                </article>
-            </a>
-            <a href="blog-best-mulch-types-chicago.html" style="text-decoration: none; color: inherit;">
-                <article class="service-card fade-up" style="cursor: pointer; height: 100%;">
-                    <div class="service-icon" style="background: var(--earth-100); color: var(--earth-600);">🌿</div>
-                    <h3>Best Types of Mulch for Chicago</h3>
-                    <p>Compare hardwood, colored black, brown, red, cedar, and wood chip mulch. Pros, cons, and expert recommendations for every property type and budget.</p>
-                    <span style="color: var(--green-700); font-weight: 600; font-size: 0.9rem;">Read Guide →</span>
-                </article>
             </a>
         </div>
     </div>
