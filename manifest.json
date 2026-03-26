@@ -1,0 +1,16 @@
+{
+    "name": "G&D Materials - Bulk Mulch Delivery Chicago",
+    "short_name": "G&D Materials",
+    "description": "Premium bulk mulch delivery and landscape materials for residential & commercial properties in Chicago, IL and surrounding suburbs.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#1a1208",
+    "theme_color": "#22753f",
+    "icons": [
+        {
+            "src": "/GD.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}

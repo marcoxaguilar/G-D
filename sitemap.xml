@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- Homepage -->
+  <url>
+    <loc>https://gandDmaterials.com/</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://gandDmaterials.com/GD.png</image:loc>
+      <image:title>G&amp;D Materials Logo — Chicago Bulk Mulch Delivery</image:title>
+    </image:image>
+  </url>
+
+  <!-- Blog: How Much Mulch Do I Need -->
+  <url>
+    <loc>https://gandDmaterials.com/blog-how-much-mulch-do-i-need.html</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Blog: Best Mulch Types for Chicago -->
+  <url>
+    <loc>https://gandDmaterials.com/blog-best-mulch-types-chicago.html</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+</urlset>
