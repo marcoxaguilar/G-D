@@ -909,16 +909,17 @@
             flex-shrink: 0;
             margin-left: 16px;
         }
-        .faq-item.open .faq-question::after {
+        .faq-item.open .faq-question::after,
+        .faq-question.active::after {
             transform: rotate(45deg);
         }
         .faq-answer {
             max-height: 0;
             overflow: hidden;
-            transition: max-height 0.35s ease, padding 0.35s ease;
+            transition: max-height 0.4s ease;
         }
-        .faq-item.open .faq-answer {
-            max-height: 300px;
+        .faq-answer.show {
+            max-height: 500px;
         }
         .faq-answer-inner {
             padding: 0 28px 22px;
@@ -2104,17 +2105,21 @@
     }
 
     // ===== FAQ ACCORDION =====
-    document.querySelectorAll('.faq-question').forEach(btn => {
-        btn.addEventListener('click', function() {
-            const item = this.parentElement;
-            const isOpen = item.classList.contains('open');
-            document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
-            document.querySelectorAll('.faq-question').forEach(b => b.setAttribute('aria-expanded', 'false'));
-            if (!isOpen) {
-                item.classList.add('open');
-                this.setAttribute('aria-expanded', 'true');
-            }
-        });
+    function toggleFaq(btn) {
+        var answer = btn.nextElementSibling;
+        var isOpen = answer.classList.contains('show');
+        // Close all
+        document.querySelectorAll('.faq-answer').forEach(function(a) { a.classList.remove('show'); });
+        document.querySelectorAll('.faq-question').forEach(function(b) { b.classList.remove('active'); b.setAttribute('aria-expanded', 'false'); });
+        // Open clicked one if it was closed
+        if (!isOpen) {
+            answer.classList.add('show');
+            btn.classList.add('active');
+            btn.setAttribute('aria-expanded', 'true');
+        }
+    }
+    document.querySelectorAll('.faq-question').forEach(function(btn) {
+        btn.onclick = function() { toggleFaq(this); };
     });
 
     // ===== SCROLL ANIMATIONS (handled by CSS) =====
