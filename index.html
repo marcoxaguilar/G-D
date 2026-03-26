@@ -373,9 +373,10 @@
             display: flex;
             align-items: center;
             background:
-                linear-gradient(135deg, rgba(26,18,8,0.88) 0%, rgba(26,92,53,0.75) 100%),
-                url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 800"><rect fill="%232c1810" width="1440" height="800"/><circle cx="200" cy="400" r="300" fill="%23382215" opacity="0.5"/><circle cx="1100" cy="300" r="400" fill="%231a3d25" opacity="0.3"/></svg>');
+                linear-gradient(135deg, rgba(26,18,8,0.85) 0%, rgba(26,92,53,0.7) 100%),
+                url('bulk-mulch-yard-overview.jpg');
             background-size: cover;
+            background-position: center;
             overflow: hidden;
         }
         .hero::before {
@@ -747,7 +748,11 @@
 
         /* ===== WHY US ===== */
         #why-us {
-            background: var(--earth-900);
+            background:
+                linear-gradient(135deg, rgba(26,18,8,0.92) 0%, rgba(10,46,26,0.92) 100%),
+                url('mulch-yard-neighborhood.jpg');
+            background-size: cover;
+            background-position: center;
             color: white;
             position: relative;
             overflow: hidden;
@@ -1281,6 +1286,9 @@
             .calc-row { grid-template-columns: 1fr; }
             .footer-grid { grid-template-columns: 1fr; }
             .blog-grid { grid-template-columns: 1fr !important; }
+            #gallery .section-inner > div { grid-template-columns: 1fr 1fr !important; }
+            #gallery .section-inner > div > div:first-child { grid-column: span 2; grid-row: span 1; }
+            #gallery .section-inner > div > div:first-child img { max-height: 250px; }
             .hero-stats { flex-direction: column; gap: 20px; align-items: center; }
         }
 
@@ -1466,8 +1474,7 @@
         <div class="products-grid">
             <article class="product-card fade-up">
                 <div class="product-img">
-                    <div class="product-img-bg" style="background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 50%, #1a1a1a 100%);">
-                        <svg width="80" height="80" viewBox="0 0 80 80" fill="none"><circle cx="40" cy="40" r="35" fill="#333" stroke="#444" stroke-width="2"/><text x="40" y="45" text-anchor="middle" fill="#888" font-size="11" font-family="sans-serif">BLACK</text></svg>
+                    <div class="product-img-bg" style="background: url('dark-mulch-stockpile.jpg') center/cover;">
                     </div>
                     <span class="product-tag">Best Seller</span>
                 </div>
@@ -1480,8 +1487,7 @@
 
             <article class="product-card fade-up">
                 <div class="product-img">
-                    <div class="product-img-bg" style="background: linear-gradient(135deg, #5c3a1e 0%, #8b6914 50%, #5c3a1e 100%);">
-                        <svg width="80" height="80" viewBox="0 0 80 80" fill="none"><circle cx="40" cy="40" r="35" fill="#6b4d30" stroke="#7d5a38" stroke-width="2"/><text x="40" y="45" text-anchor="middle" fill="#c4a06a" font-size="11" font-family="sans-serif">BROWN</text></svg>
+                    <div class="product-img-bg" style="background: url('bulk-mulch-closeup.jpg') center/cover;">
                     </div>
                     <span class="product-tag">Natural</span>
                 </div>
@@ -1494,8 +1500,7 @@
 
             <article class="product-card fade-up">
                 <div class="product-img">
-                    <div class="product-img-bg" style="background: linear-gradient(135deg, #8b2500 0%, #c0392b 50%, #8b2500 100%);">
-                        <svg width="80" height="80" viewBox="0 0 80 80" fill="none"><circle cx="40" cy="40" r="35" fill="#a52a2a" stroke="#c0392b" stroke-width="2"/><text x="40" y="45" text-anchor="middle" fill="#e8a090" font-size="11" font-family="sans-serif">RED</text></svg>
+                    <div class="product-img-bg" style="background: url('mulch-yard-aerial.jpg') center/cover;">
                     </div>
                     <span class="product-tag">Vibrant</span>
                 </div>
@@ -1508,8 +1513,7 @@
 
             <article class="product-card fade-up">
                 <div class="product-img">
-                    <div class="product-img-bg" style="background: linear-gradient(135deg, #3e2015 0%, #6b4226 50%, #3e2015 100%);">
-                        <svg width="80" height="80" viewBox="0 0 80 80" fill="none"><circle cx="40" cy="40" r="35" fill="#5c3317" stroke="#6b4226" stroke-width="2"/><text x="40" y="45" text-anchor="middle" fill="#b8956a" font-size="10" font-family="sans-serif">CHOCOLATE</text></svg>
+                    <div class="product-img-bg" style="background: url('black-mulch-pile.jpg') center/cover;">
                     </div>
                 </div>
                 <div class="product-body">
@@ -1521,8 +1525,7 @@
 
             <article class="product-card fade-up">
                 <div class="product-img">
-                    <div class="product-img-bg" style="background: linear-gradient(135deg, #c8a96e 0%, #deb887 50%, #c8a96e 100%);">
-                        <svg width="80" height="80" viewBox="0 0 80 80" fill="none"><circle cx="40" cy="40" r="35" fill="#c8a96e" stroke="#d4b87a" stroke-width="2"/><text x="40" y="45" text-anchor="middle" fill="#6b4d30" font-size="11" font-family="sans-serif">CEDAR</text></svg>
+                    <div class="product-img-bg" style="background: url('mulch-yard-operations.jpg') center/cover;">
                     </div>
                     <span class="product-tag">Insect Repellent</span>
                 </div>
@@ -1535,8 +1538,7 @@
 
             <article class="product-card fade-up">
                 <div class="product-img">
-                    <div class="product-img-bg" style="background: linear-gradient(135deg, #8b7355 0%, #a0896e 50%, #8b7355 100%);">
-                        <svg width="80" height="80" viewBox="0 0 80 80" fill="none"><circle cx="40" cy="40" r="35" fill="#8b7355" stroke="#a0896e" stroke-width="2"/><text x="40" y="45" text-anchor="middle" fill="#ddc8a0" font-size="11" font-family="sans-serif">CHIPS</text></svg>
+                    <div class="product-img-bg" style="background: url('mulch-loader-equipment.jpg') center/cover;">
                     </div>
                     <span class="product-tag">Economy</span>
                 </div>
@@ -1691,7 +1693,7 @@
         <p class="section-subtitle">Expert advice on mulching, landscaping, and maintaining your Chicago-area property.</p>
 
         <div class="blog-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 28px; margin-top: 48px;">
-            <a href="blog/best-time-to-mulch-chicago.html" style="text-decoration: none; background: var(--gray-100); border: 1px solid var(--gray-200); border-radius: 16px; overflow: hidden; transition: all 0.3s;" onmouseover="this.style.boxShadow='0 12px 48px rgba(26,18,8,0.12)'; this.style.transform='translateY(-4px)'" onmouseout="this.style.boxShadow='none'; this.style.transform='none'">
+            <a href="best-time-to-mulch-chicago.html" style="text-decoration: none; background: var(--gray-100); border: 1px solid var(--gray-200); border-radius: 16px; overflow: hidden; transition: all 0.3s;" onmouseover="this.style.boxShadow='0 12px 48px rgba(26,18,8,0.12)'; this.style.transform='translateY(-4px)'" onmouseout="this.style.boxShadow='none'; this.style.transform='none'">
                 <div style="background: linear-gradient(135deg, var(--green-700), var(--green-900)); padding: 32px; color: white;">
                     <span style="font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; opacity: 0.7;">Seasonal Guide</span>
                     <h3 style="font-size: 1.3rem; margin-top: 8px; color: white;">When Is the Best Time to Mulch in Chicago?</h3>
@@ -1702,7 +1704,7 @@
                 </div>
             </a>
 
-            <a href="blog/how-much-mulch-do-i-need.html" style="text-decoration: none; background: var(--gray-100); border: 1px solid var(--gray-200); border-radius: 16px; overflow: hidden; transition: all 0.3s;" onmouseover="this.style.boxShadow='0 12px 48px rgba(26,18,8,0.12)'; this.style.transform='translateY(-4px)'" onmouseout="this.style.boxShadow='none'; this.style.transform='none'">
+            <a href="how-much-mulch-do-i-need.html" style="text-decoration: none; background: var(--gray-100); border: 1px solid var(--gray-200); border-radius: 16px; overflow: hidden; transition: all 0.3s;" onmouseover="this.style.boxShadow='0 12px 48px rgba(26,18,8,0.12)'; this.style.transform='translateY(-4px)'" onmouseout="this.style.boxShadow='none'; this.style.transform='none'">
                 <div style="background: linear-gradient(135deg, var(--earth-700), var(--earth-900)); padding: 32px; color: white;">
                     <span style="font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; opacity: 0.7;">Calculator &amp; Guide</span>
                     <h3 style="font-size: 1.3rem; margin-top: 8px; color: white;">How Much Mulch Do I Need?</h3>
@@ -1794,6 +1796,51 @@
             <span class="area-tag">Joliet</span>
             <span class="area-tag">Aurora</span>
             <span class="area-tag">Bolingbrook</span>
+        </div>
+    </div>
+</section>
+
+<!-- ===== PHOTO GALLERY ===== -->
+<section id="gallery" style="background: var(--earth-900); padding: 90px 0; overflow: hidden;">
+    <div class="section-inner" style="text-align: center;">
+        <span class="section-label" style="color: var(--green-300);">See Our Operation</span>
+        <h2 class="section-title" style="color: white;">Real Mulch. Real Equipment. Real Results.</h2>
+        <p class="section-subtitle" style="color: rgba(255,255,255,0.6); margin: 0 auto 48px;">Our yard, our trucks, our product — serving Chicago and the suburbs every day.</p>
+
+        <div style="display: grid; grid-template-columns: repeat(4, 1fr); grid-template-rows: auto auto; gap: 12px;">
+            <!-- Row 1: Feature image + 3 smaller -->
+            <div style="grid-column: span 2; grid-row: span 2; border-radius: 14px; overflow: hidden; position: relative;">
+                <img src="gd-delivery-truck.jpg" alt="G&D Materials delivery truck at mulch yard in Chicago" style="width: 100%; height: 100%; object-fit: cover; display: block;" loading="lazy">
+                <div style="position: absolute; bottom: 0; left: 0; right: 0; padding: 20px 24px; background: linear-gradient(transparent, rgba(0,0,0,0.7));">
+                    <span style="color: white; font-weight: 600; font-size: 0.95rem;">Our G&D Delivery Fleet</span>
+                </div>
+            </div>
+            <div style="border-radius: 14px; overflow: hidden;">
+                <img src="mulch-yard-aerial.jpg" alt="Aerial view of G&D Materials bulk mulch yard Chicago" style="width: 100%; height: 200px; object-fit: cover; display: block;" loading="lazy">
+            </div>
+            <div style="border-radius: 14px; overflow: hidden;">
+                <img src="dark-mulch-stockpile.jpg" alt="Premium dark mulch stockpile ready for delivery Chicago IL" style="width: 100%; height: 200px; object-fit: cover; display: block;" loading="lazy">
+            </div>
+            <div style="border-radius: 14px; overflow: hidden;">
+                <img src="mulch-loader-equipment.jpg" alt="Front loader at G&D Materials mulch yard" style="width: 100%; height: 200px; object-fit: cover; display: block;" loading="lazy">
+            </div>
+            <div style="border-radius: 14px; overflow: hidden;">
+                <img src="bulk-mulch-closeup.jpg" alt="Closeup of premium bulk mulch at G&D Materials" style="width: 100%; height: 200px; object-fit: cover; display: block;" loading="lazy">
+            </div>
+
+            <!-- Row 2: 4 more -->
+            <div style="border-radius: 14px; overflow: hidden;">
+                <img src="mulch-yard-neighborhood.jpg" alt="G&D Materials mulch facility serving Chicago neighborhoods" style="width: 100%; height: 200px; object-fit: cover; display: block;" loading="lazy">
+            </div>
+            <div style="border-radius: 14px; overflow: hidden;">
+                <img src="mulch-facility-aerial.jpg" alt="Aerial view of mulch processing facility Chicago area" style="width: 100%; height: 200px; object-fit: cover; display: block;" loading="lazy">
+            </div>
+            <div style="border-radius: 14px; overflow: hidden;">
+                <img src="gd-truck-yard.jpg" alt="G&D branded truck with equipment at mulch yard" style="width: 100%; height: 200px; object-fit: cover; display: block;" loading="lazy">
+            </div>
+            <div style="border-radius: 14px; overflow: hidden;">
+                <img src="mulch-yard-drone.jpg" alt="Drone view of massive bulk mulch stockpiles at G&D Materials" style="width: 100%; height: 200px; object-fit: cover; display: block;" loading="lazy">
+            </div>
         </div>
     </div>
 </section>
