@@ -3,20 +3,20 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
     <url>
         <loc>https://gandDmaterials.com/</loc>
-        <lastmod>2026-03-26</lastmod>
+        <lastmod>2026-04-06</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
         <image:image>
             <image:loc>https://gandDmaterials.com/GD.png</image:loc>
-            <image:title>G and D Materials Logo Bulk Mulch Delivery Chicago</image:title>
+            <image:title>G and D Materials Logo Bulk Mulch Delivery Lake County IL</image:title>
         </image:image>
         <image:image>
             <image:loc>https://gandDmaterials.com/gd-delivery-truck.jpg</image:loc>
-            <image:title>G and D Materials delivery truck Chicago IL</image:title>
+            <image:title>G and D Materials delivery truck Lake County IL</image:title>
         </image:image>
         <image:image>
             <image:loc>https://gandDmaterials.com/bulk-mulch-yard-overview.jpg</image:loc>
-            <image:title>Bulk mulch yard overview G and D Materials Chicago</image:title>
+            <image:title>Bulk mulch yard overview G and D Materials Lake County</image:title>
         </image:image>
         <image:image>
             <image:loc>https://gandDmaterials.com/mulch-loader-equipment.jpg</image:loc>
@@ -32,22 +32,16 @@
         </image:image>
         <image:image>
             <image:loc>https://gandDmaterials.com/mulch-yard-aerial.jpg</image:loc>
-            <image:title>Aerial view of bulk mulch yard Chicago</image:title>
+            <image:title>Aerial view of bulk mulch yard Lake County</image:title>
         </image:image>
         <image:image>
             <image:loc>https://gandDmaterials.com/gd-truck-yard.jpg</image:loc>
-            <image:title>G and D branded truck at Chicago mulch yard</image:title>
+            <image:title>G and D branded truck at Lake County mulch yard</image:title>
         </image:image>
     </url>
     <url>
-        <loc>https://gandDmaterials.com/best-time-to-mulch-chicago.html</loc>
-        <lastmod>2026-03-25</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://gandDmaterials.com/how-much-mulch-do-i-need.html</loc>
-        <lastmod>2026-03-25</lastmod>
+        <loc>https://gandDmaterials.com/best-time-to-mulch-lake-county.html</loc>
+        <lastmod>2026-04-06</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
