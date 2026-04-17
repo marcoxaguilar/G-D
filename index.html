@@ -1222,6 +1222,12 @@
             .footer-grid {
                 grid-template-columns: 1fr 1fr;
             }
+            #our-process .section-inner > div[style*="grid-template-columns"] {
+                grid-template-columns: 1fr !important;
+            }
+            #our-process .section-inner > div[style*="grid-template-columns"] > div {
+                order: unset !important;
+            }
         }
         @media (max-width: 768px) {
             .nav-links { display: none; }
@@ -1484,6 +1490,114 @@
     </div>
 </section>
 
+<!-- ===== OUR PROCESS ===== -->
+<section id="our-process" style="background: var(--earth-50); padding: 90px 0;">
+    <div class="section-inner">
+        <span class="section-label">How We Make It</span>
+        <h2 class="section-title">From Raw Material to Your Property</h2>
+        <p class="section-subtitle">We don't just deliver mulch — we manufacture it. Here's how G&amp;D Materials produces top-quality mulch for Lake County, from start to finish.</p>
+
+        <!-- Step 1: Grinding Process Video -->
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: center; margin-top: 56px;">
+            <div style="border-radius: 16px; overflow: hidden; box-shadow: 0 8px 32px rgba(26,18,8,0.15);">
+                <video style="width: 100%; display: block;" autoplay muted loop playsinline>
+                    <source src="grinding-process.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div>
+                <div style="display: inline-block; background: var(--green-700); color: white; padding: 6px 16px; border-radius: 20px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 16px;">Step 1 — Grinding</div>
+                <h3 style="font-family: 'DM Serif Display', serif; font-size: 1.5rem; color: var(--earth-800); margin-bottom: 12px;">The Final Grinding Process</h3>
+                <p style="color: var(--gray-600); font-size: 1rem; line-height: 1.75;">This is our final grinding process for our mulch. We make sure that it's top quality for all your projects. Every batch goes through our grinder to achieve the fine, consistent texture our customers expect — whether it's triple ground, fine mulch, leaf mulch, or wood chips.</p>
+            </div>
+        </div>
+
+        <!-- Step 2: Mulch Ready (Image) -->
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: center; margin-top: 56px;">
+            <div style="order: 2; border-radius: 16px; overflow: hidden; box-shadow: 0 8px 32px rgba(26,18,8,0.15);">
+                <img src="triple-ground-mulch-ready.jpg" alt="Triple ground mulch ready for delivery at G&D Materials Lake County" style="width: 100%; display: block;" loading="lazy">
+            </div>
+            <div style="order: 1;">
+                <div style="display: inline-block; background: var(--earth-600); color: white; padding: 6px 16px; border-radius: 20px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 16px;">Step 2 — Aged &amp; Ready</div>
+                <h3 style="font-family: 'DM Serif Display', serif; font-size: 1.5rem; color: var(--earth-800); margin-bottom: 12px;">Our Triple Ground Mulch, Ready to Deliver</h3>
+                <p style="color: var(--gray-600); font-size: 1rem; line-height: 1.75;">Our process to get our mulch ready with a natural color starts a year before delivery. That patience is what gives G&amp;D mulch its rich tone and consistent quality — no dyes, no shortcuts, just time and the right process.</p>
+            </div>
+        </div>
+
+        <!-- Step 3: Equipment (Image) -->
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: center; margin-top: 56px;">
+            <div style="border-radius: 16px; overflow: hidden; box-shadow: 0 8px 32px rgba(26,18,8,0.15);">
+                <img src="wheel-loader-equipment.jpg" alt="Wheel loader loading mulch for delivery at G&D Materials" style="width: 100%; display: block;" loading="lazy">
+            </div>
+            <div>
+                <div style="display: inline-block; background: var(--green-700); color: white; padding: 6px 16px; border-radius: 20px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 16px;">Step 3 — Loading</div>
+                <h3 style="font-family: 'DM Serif Display', serif; font-size: 1.5rem; color: var(--earth-800); margin-bottom: 12px;">Loaded Up &amp; Ready to Go</h3>
+                <p style="color: var(--gray-600); font-size: 1rem; line-height: 1.75;">We use wheel loaders to load up our semi trucks for delivery. If companies pick up, we make sure they're loaded up as well. Our equipment handles orders of every size — mulch, gravel, topsoil, compost, sand, and aggregate — from a few yards for a residential job to full loads for commercial projects.</p>
+            </div>
+        </div>
+
+        <!-- Step 4: Delivery Truck (Image) -->
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: center; margin-top: 56px;">
+            <div style="order: 2; border-radius: 16px; overflow: hidden; box-shadow: 0 8px 32px rgba(26,18,8,0.15);">
+                <img src="gd-six-wheeler-truck.jpg" alt="G&D Materials six-wheeler delivery truck serving Lake County IL" style="width: 100%; display: block;" loading="lazy">
+            </div>
+            <div style="order: 1;">
+                <div style="display: inline-block; background: var(--earth-600); color: white; padding: 6px 16px; border-radius: 20px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 16px;">Step 4 — Delivery</div>
+                <h3 style="font-family: 'DM Serif Display', serif; font-size: 1.5rem; color: var(--earth-800); margin-bottom: 12px;">Our 6-Wheelers, Delivering to You</h3>
+                <p style="color: var(--gray-600); font-size: 1rem; line-height: 1.75;">Our branded G&amp;D six-wheelers deliver to residential and commercial clients across Lake County. Triple ground mulch, fine mulch, leaf mulch, wood chips, CA6 gravel, river rock, pea gravel, sand, compost, and topsoil — from Gurnee to Libertyville, Mundelein to Waukegan, we bring it right to your property.</p>
+            </div>
+        </div>
+
+        <!-- Full Product Lineup Callout -->
+        <div style="margin-top: 56px; background: var(--earth-900); border-radius: 16px; padding: 40px 44px; display: grid; grid-template-columns: 1fr 1fr; gap: 36px;">
+            <div>
+                <h3 style="font-family: 'DM Serif Display', serif; font-size: 1.4rem; color: white; margin-bottom: 16px;">Mulch We Manufacture</h3>
+                <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+                    <span style="background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.15); color: rgba(255,255,255,0.85); padding: 8px 18px; border-radius: 8px; font-size: 0.88rem; font-weight: 500;">Triple Ground</span>
+                    <span style="background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.15); color: rgba(255,255,255,0.85); padding: 8px 18px; border-radius: 8px; font-size: 0.88rem; font-weight: 500;">Fine Mulch</span>
+                    <span style="background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.15); color: rgba(255,255,255,0.85); padding: 8px 18px; border-radius: 8px; font-size: 0.88rem; font-weight: 500;">Leaf Mulch</span>
+                    <span style="background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.15); color: rgba(255,255,255,0.85); padding: 8px 18px; border-radius: 8px; font-size: 0.88rem; font-weight: 500;">Wood Chips</span>
+                </div>
+            </div>
+            <div>
+                <h3 style="font-family: 'DM Serif Display', serif; font-size: 1.4rem; color: white; margin-bottom: 16px;">Other Materials We Deliver</h3>
+                <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+                    <span style="background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.15); color: rgba(255,255,255,0.85); padding: 8px 18px; border-radius: 8px; font-size: 0.88rem; font-weight: 500;">CA6 Gravel</span>
+                    <span style="background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.15); color: rgba(255,255,255,0.85); padding: 8px 18px; border-radius: 8px; font-size: 0.88rem; font-weight: 500;">River Rock</span>
+                    <span style="background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.15); color: rgba(255,255,255,0.85); padding: 8px 18px; border-radius: 8px; font-size: 0.88rem; font-weight: 500;">Pea Gravel</span>
+                    <span style="background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.15); color: rgba(255,255,255,0.85); padding: 8px 18px; border-radius: 8px; font-size: 0.88rem; font-weight: 500;">Sand</span>
+                    <span style="background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.15); color: rgba(255,255,255,0.85); padding: 8px 18px; border-radius: 8px; font-size: 0.88rem; font-weight: 500;">Compost</span>
+                    <span style="background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.15); color: rgba(255,255,255,0.85); padding: 8px 18px; border-radius: 8px; font-size: 0.88rem; font-weight: 500;">Topsoil</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Summer/Fall Video -->
+        <div style="margin-top: 56px; border-radius: 16px; overflow: hidden; box-shadow: 0 8px 32px rgba(26,18,8,0.15); position: relative;">
+            <video style="width: 100%; display: block; max-height: 480px; object-fit: cover;" autoplay muted loop playsinline>
+                <source src="summer-fall-yard.mp4" type="video/mp4">
+            </video>
+            <div style="position: absolute; bottom: 0; left: 0; right: 0; padding: 28px 32px; background: linear-gradient(transparent, rgba(0,0,0,0.75));">
+                <p style="color: white; font-size: 1.1rem; font-weight: 600; margin: 0;">Our yard during peak season — stocked and ready for Lake County's busiest months.</p>
+            </div>
+        </div>
+
+        <!-- Drone Flyover -->
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: center; margin-top: 56px;">
+            <div style="border-radius: 16px; overflow: hidden; box-shadow: 0 8px 32px rgba(26,18,8,0.15);">
+                <video style="width: 100%; display: block;" autoplay muted loop playsinline>
+                    <source src="drone-shot.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div>
+                <div style="display: inline-block; background: var(--green-700); color: white; padding: 6px 16px; border-radius: 20px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 16px;">From Above</div>
+                <h3 style="font-family: 'DM Serif Display', serif; font-size: 1.5rem; color: var(--earth-800); margin-bottom: 12px;">Thousands of Yards, Ready to Go</h3>
+                <p style="color: var(--gray-600); font-size: 1rem; line-height: 1.75;">An aerial look at our stockpiles. We keep a massive supply of mulch on hand alongside CA6 gravel, river rock, pea gravel, sand, compost, and topsoil — all measured in yards or tons. No waiting, no backorders. Your order is always ready.</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
 <!-- ===== LANDSCAPE SERVICES ===== -->
 <section id="landscape-services" aria-labelledby="services-heading">
     <div class="section-inner">
@@ -1664,9 +1778,7 @@
             <span class="area-tag">Round Lake</span>
             <span class="area-tag">Round Lake Beach</span>
             <span class="area-tag">Lindenhurst</span>
-            <span class="area-tag">Antioch</span>
             <span class="area-tag">Lake Villa</span>
-            <span class="area-tag">Zion</span>
             <span class="area-tag">North Chicago</span>
             <span class="area-tag">Highland Park</span>
             <span class="area-tag">Lake Forest</span>
